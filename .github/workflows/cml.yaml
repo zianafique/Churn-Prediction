@@ -15,7 +15,7 @@ jobs:
       #   with:
       #     python-version: '3.x'
       - uses: iterative/setup-cml@v1
-      - name: Train model
+      - name: Train model churn
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
