@@ -18,4 +18,5 @@ jobs:
       - name: Train model
         run: |
           # Your ML workflow goes here
-          python churn_classification.ipynb
+          pip install -r requirements.txt
+          python churn_prediction.py
